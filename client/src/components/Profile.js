@@ -1,22 +1,18 @@
 import React from 'react';
+import { AccountData } from 'drizzle-react-components';
 
 class Profile extends React.Component {
-    state = { dataKey: null, account: null, accountBalance: null };
-
-    componentDidMount() {
-        const { drizzle } = this.props;
-
-        drizzle.web3.eth.getAccounts().then(e => this.setState({account: e[0]}));
-
-        drizzle.web3.eth.getAccounts().then(z => this.setState({accountBalance: (z/1000000000000000000).toFixed(3)}));
-    }
 
     render() {
         return (
-            <div>
+            <div className="center-screen">
                 <h1>Profile</h1>
-                <p>Your address: {this.state.account}</p>
-                <p>Your balance: {this.state.accountBalance}</p>
+                <AccountData accountIndex="0" units="ether" precision="3" render={({ address, balance, units }) =>  (
+                    <div>
+                        <div><strong>Address:</strong> {address}</div>
+                        <div><strong>Balance:</strong> {balance} {units}</div>
+                    </div>
+                )}/>
             </div>
         );
     }

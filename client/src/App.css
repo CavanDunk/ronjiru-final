@@ -409,9 +409,13 @@
 .center-screen {
   height: 100rem;
   display: flex;
+  flex-direction: column;
   top: 50%;
   left: 50%;
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+.center-screen h1 {
+  margin: 5rem;
 }
