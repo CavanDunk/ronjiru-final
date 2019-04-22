@@ -255,10 +255,10 @@
   overflow: hidden;
 }
 .Landing-background {
-  background-image: url("https://lh3.googleusercontent.com/GmtnAt1VMnI1Q2xzULuPXpL24iR10jGLy11Jsl40gbo_I4l1-VT3AuH51RFnhEzcD0yTRXNpDVmgfOLEGv-rYSYMXObtS4OVZw55yXwnGdwWjSGuZvOrZjqAEkomXCQ4DQlhx-25ZmTJmTRIWaiA6owJgxE0Ng3NXPf7D7uCqrH6rVg5ChbVtJkB2sH2uPrQWzE9efN2YOOF19AU7gSu-d-lrvd07HTR6mc-X9mXpwt1qVHz7O-uMTZnZWSKP7Ee2Zeis_Gff5u7HvXcHA2d6BdlDX7R4xscNdf94fxJ-byl0FXI0u-TYKfIubE0JWQTRYWEgsSaso0s8UoYmTZcJymngD9TDhkXv09zxPOCTiMieqe5hQ8N7KwbPvRgB0cRlH-6FIwYjMoqd_P6bd8UdQ-q9WUz5QKn-E_2llOn4_pHoQGtZBgg-SMs_AS1VCZx8FR65gwKw5YmL7kt_iauu-C3JWklZeeI4molVOnTALCFMGE_BuRKAcrvgYi_GjoEVQOYWe7kvaS8wr6eh5bphJ89nFZllN4ZfI4ydiyrhWmRnvj3eq0Am_fTAfZ7mzTLh1-hRIJrdxQhL4Ebl9UYeWnVBXh5-KseJolEiWVHoE_C10T2DVSHhUl3L92lK7A4RK8rH5TvPIyA1_kQikrclbgprmATPG8=w1946-h1297-no");
+  background-image: url("https://lh3.googleusercontent.com/tQLpGk5oKFjGdr8J5wv7X2nLbJAzplAvvN5-GYuLiyNl--_szeRxinkyihVKu8rj9RR2LfnGn_hqy1iliKvEj2CS-_otciMcrb44xvXcvv4C2v-8T2rm1pWl9gL4NBeQcc9SoUdBx_HnfWJBA82yDOdY2JbXl2iRkGqORLD52wQJ67qEgQX6sei21eAceZ43OtVy0DIPfVTsc4LvpJLEr91kKi5s1dD09LVhXt-YJBJ3B-zV9ElrMOa6rFDtHS5EVgXWFyoOl4SNDoVT7wIuUsMJy9-_7MXajYRSazhxmo6jRJEyljtnxcLSo54XDemtPmUQTF8u0LVskRO6dadIQ3osLtDrzyYp3oCb8lAy67jcWe7xapvHlaqwLU3r8CTZJ5BzMH3ma2-6OwQiuQOxkQT0K6VJ1eebFope-lbbW_PKMnjQ35j_6cqNIE3r93chxWYHj3jEtyJugh0X4SX6OVnMt-41zV9438mCISHPpWudwd6KA8sDmRh7jqeC8srr-mmGjrpkJVxLy_1oLeSjvXXx863ROjBpP6s9N90hkYdYjau0WB10Jm3qKwDTPY6_RQWpfI8uxE4zhWm-JOOK2HDPa9AX4LKoKhC2ywLQvnHr6E-j1Ht-EjHSnYPK-eNevieZx0briEkr3OFZnk45_H5w5AUnE9U=s1836-no");
   background-size: cover;
   background-position: center;
-  height: 125rem;
+  height: 90rem;
 }
 .Landing-main {
   padding-top: 4.2rem;
@@ -266,34 +266,35 @@
   z-index: 3;
 }
 .Landing-title {
-  margin-top: 50rem;
-  margin-right: 5rem;
+  margin-top: 34rem;
+
 }
 .Container--center {
   text-align: center;
 }
 .Landing-heading {
-  color: #0c1824;
+  color: white;
   font-size: 8rem;
   font-weight: bolder;
   margin-bottom: 0;
   letter-spacing: -.15rem;
   line-height: 1;
   text-shadow:
-          -1px -1px 0 #000,
-          1px -1px 0 #000,
-          -1px 1px 0 #000,
-          1px 1px 0 #000;
+          -1px -1px 0 #000000,
+          1px -1px 0 #000000,
+          -1px 1px 0 #000000,
+          1px 1px 0 #000000;
 }
 .Landing-subheading {
-  color: #0c1824;
+  color: #f9f8f6;
+  font-weight: bold;
   font-size: 3.2rem;
   margin-bottom: 0;
   text-shadow:
-          -1px -1px 0 #000,
-          1px -1px 0 #000,
-          -1px 1px 0 #000,
-          1px 1px 0 #000;
+          -1px -1px 0 #000000,
+          1px -1px 0 #000000,
+          -1px 1px 0 #000000,
+          1px 1px 0 #000000;
 }
 .Landing-value {
   background-size: 100% 16rem;
@@ -315,7 +316,7 @@
   position: relative;
   background-color: white;
   margin: -6rem 3rem 0;
-  margin-bottom: 12rem;
+  margin-bottom: 1.5rem;
   border: .2rem solid #e7e6e4;
   border-radius: 1rem;
   box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
@@ -410,12 +411,23 @@
   height: 100rem;
   display: flex;
   flex-direction: column;
-  top: 50%;
-  left: 50%;
   justify-content: center;
   text-align: center;
   align-items: center;
+  position: relative;
+  background-color: white;
+  border: .2rem solid #e7e6e4;
+  border-radius: 1rem;
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+  z-index: 3;
+  margin-right: 10rem;
+  margin-left: 10rem;
 }
 .center-screen h1 {
   margin: 5rem;
+}
+.div-bg {
+  background-image: url("https://lh3.googleusercontent.com/HWjUBMOzvfYYc8gm6g0oxlYgNK3geMH3mMFdBLPING78QuXJ2K4Z961fvb1G1ECck4T3PRHH2Q=s328-no");
+  background-position: center;
+  background-repeat: repeat;
 }

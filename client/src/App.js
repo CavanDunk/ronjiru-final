@@ -8,7 +8,6 @@ import HeaderNav from './components/HeaderNav';
 import Home from './components/Home';
 import Generate from './components/Generate';
 import Profile from './components/Profile';
-import Alert from 'react-bootstrap/Alert';
 
 // styling
 import './App.css';

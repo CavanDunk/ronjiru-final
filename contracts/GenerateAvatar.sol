@@ -89,4 +89,7 @@ contract GenerateAvatar {
     avatars.length--;
     //return avatars;
   }
+  function setString(string memory _text) {
+    str = _text;
+  }
 }

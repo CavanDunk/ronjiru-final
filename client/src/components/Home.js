@@ -10,7 +10,7 @@ class Home extends React.Component {
                             <div className="Container Landing-main Container--lg Container--center">
                                 <div className="Landing-title">
                                     <h1 className="Landing-heading">Ronjiru</h1>
-                                    <p className="Landing-subheading">subheading</p>
+                                    <p className="Landing-subheading">Avatar Generator</p>
                                 </div>
                             </div>
                             <div className="Landing value">
@@ -31,7 +31,7 @@ class Home extends React.Component {
                                     </div>
                                     <div className="Explainer-what-text">
                                         <h1 className="Explainer-heading">What is Ronjiru?</h1>
-                                        <p className="Explainer-description">Fill this in later</p>
+                                        <p className="Explainer-description">Originally, Ronjiru was a discussion forum, but due to time constraints and lack of knowledge, it is now an avatar generator.</p>
                                     </div>
                                 </div>
                             </div>
@@ -41,11 +41,10 @@ class Home extends React.Component {
                             <div className="Explainer-row">
                                 <h1 className="Explainer-heading">How does it work?</h1>
                                 <p className="Explainer-description">
-                                    Lorem ipsum dolor sit amet, an petentium prodesset scribentur ius, duo et
-                                    nusquam ponderum delicata, per modo dicunt everti te. Ex vel saepe ancillae
-                                    eloquentiam, his ea idque disputationi, delicata repudiare ad has. Te pri
-                                    deleniti elaboraret. Qui ex quidam evertitur eloquentiam, laoreet nominati
-                                    evertitur eu cum.
+                                    Basically, navigate to the 'Generate' page and click on the
+                                    'Generate Avatar' button. This will call an RNG function from
+                                    our 'GenerateAvatar' smart contract and return the avatar
+                                    details.
                                 </p>
                             </div>
                         </div>
