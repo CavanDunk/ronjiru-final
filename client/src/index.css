@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('./assets/montserrat-regular/Montserrat-Regular.eot');
+  src: url('./assets/montserrat-regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./assets/montserrat-regular/Montserrat-Regular.woff') format('woff'),
+  url('./assets/montserrat-regular/Montserrat-Regular.ttf') format('truetype'),
+  url('./assets/montserrat-regular/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+}
+
+.fontpro,.fontpro-35811 {
+  font-family: 'Montserrat-Regular',sans-serif;
+}
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: Montserrat-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  font-size: 2rem;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Montserrat-Regular, source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Regular', sans-serif;
+  margin: 0;
+  color: #2a2825;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -.3px;
+}
+
+div {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
