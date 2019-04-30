@@ -255,10 +255,10 @@
   overflow: hidden;
 }
 .Landing-background {
-  background-image: url("https://lh3.googleusercontent.com/tQLpGk5oKFjGdr8J5wv7X2nLbJAzplAvvN5-GYuLiyNl--_szeRxinkyihVKu8rj9RR2LfnGn_hqy1iliKvEj2CS-_otciMcrb44xvXcvv4C2v-8T2rm1pWl9gL4NBeQcc9SoUdBx_HnfWJBA82yDOdY2JbXl2iRkGqORLD52wQJ67qEgQX6sei21eAceZ43OtVy0DIPfVTsc4LvpJLEr91kKi5s1dD09LVhXt-YJBJ3B-zV9ElrMOa6rFDtHS5EVgXWFyoOl4SNDoVT7wIuUsMJy9-_7MXajYRSazhxmo6jRJEyljtnxcLSo54XDemtPmUQTF8u0LVskRO6dadIQ3osLtDrzyYp3oCb8lAy67jcWe7xapvHlaqwLU3r8CTZJ5BzMH3ma2-6OwQiuQOxkQT0K6VJ1eebFope-lbbW_PKMnjQ35j_6cqNIE3r93chxWYHj3jEtyJugh0X4SX6OVnMt-41zV9438mCISHPpWudwd6KA8sDmRh7jqeC8srr-mmGjrpkJVxLy_1oLeSjvXXx863ROjBpP6s9N90hkYdYjau0WB10Jm3qKwDTPY6_RQWpfI8uxE4zhWm-JOOK2HDPa9AX4LKoKhC2ywLQvnHr6E-j1Ht-EjHSnYPK-eNevieZx0briEkr3OFZnk45_H5w5AUnE9U=s1836-no");
+  background-image: url("https://lh3.googleusercontent.com/kCPfpJZvtGQR_s1y2-VhnImdt3ywNnvDdS5WNp8mgGC8ufmn_EUHRHKE4AlnayuZafQVnHXZIwW708tN_8Ja-dhz-f8mT5VG5ZeJjPBoUxc3fFeA0hGKgYlhgN617AZ7rnQxUqGX5w60QsOKNRWIMkCcf0M8gKfMt2_a0t8jskMiycY2iPJ6na5Oy4gtdwYFeHpCbeNgOWhBRvi39pkE20fNjHyfVJI8IHipSmVHu32a33oFmnbnz1GBECjJFPHIpNhMnARivMXvrCpFD3TG6QIkOXN10oqM-JytyXJjMH-9OVko3fjipVX36-a2zNY2C58FMDbdGciBJpCetdzNr80it39p1Z6kXcIxCZNazB7FR1DM9ZBvdIBLhXrsfw9qZpYFYTRjn-2hSLj7vodAoa91rszZC2cIsdCcOi30T1wjyiQmBzEiha1wfqnZ3lfdxS88HpnAeByo0c2kmkN4DJ2FRtWByB6GLSFnykkIOMQ22Vt4ByY0msQJMTOayaKmc-PuWxz0HPqAUUNdfY2QWeXm80Vq8qSkvGAO-HYpCqjaWMCfafkKCF3VS5htSaCzbYFCkvNVjBf8Yu3rQknX0S7lBevaJ3zUL0Crp-SZtYgsiqtFL2P30NeK1Qk8dl3sd6a-jF4v2YI38XxEIYFUrg1J1n2zrqQ=w1946-h1297-no");
   background-size: cover;
   background-position: center;
-  height: 90rem;
+  height: 120rem;
 }
 .Landing-main {
   padding-top: 4.2rem;
@@ -266,14 +266,14 @@
   z-index: 3;
 }
 .Landing-title {
-  margin-top: 34rem;
-
+  margin-top: 50rem;
+  margin-right: 5rem;
 }
 .Container--center {
   text-align: center;
 }
 .Landing-heading {
-  color: white;
+  color: #15212d;
   font-size: 8rem;
   font-weight: bolder;
   margin-bottom: 0;
@@ -286,8 +286,8 @@
           1px 1px 0 #000000;
 }
 .Landing-subheading {
-  color: #f9f8f6;
-  font-weight: bold;
+  color: #15212d;
+  font-weight: lighter;
   font-size: 3.2rem;
   margin-bottom: 0;
   text-shadow:

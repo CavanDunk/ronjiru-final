@@ -2,7 +2,9 @@ pragma solidity ^0.5.0;
 
 contract GenerateAvatar {
 
-  uint keep;
+  uint public keep = 1;
+  string public test = "hi";
+
   struct Avatar
   {
     uint id;
@@ -54,7 +56,7 @@ contract GenerateAvatar {
   {
     return avatars.length;
   }
-  function rngAvatar() public payable returns(uint,string memory, string memory)
+  function rngAvatar() public returns(uint)
   {
     uint rng = random();
     // if(avatarOwner[msg.sender].id != 0)
@@ -62,24 +64,29 @@ contract GenerateAvatar {
     //    createAvatar(avatarOwner[msg.sender].id,avatarOwner[msg.sender].name,avatarOwner[msg.sender].class);
     // everytime an account that already has an avatar uses the rngavatar the avatar is placed back into the array
     //}
-    avatarOwner[msg.sender].id = avatars[rng].id;
-    avatarOwner[msg.sender].name = avatars[rng].name;
-    avatarOwner[msg.sender].class = avatars[rng].class;
-    work.push(msg.sender) - 1;
-    //deleteAndFix(rng) //takes the randomly generated Id, deletes it and re adjust the array to remove gaps.
-    return(rng,avatarOwner[msg.sender].name,avatarOwner[msg.sender].class); //Returns rng avatar name & class
+//    avatarOwner[msg.sender].id = avatars[rng].id;
+//    avatarOwner[msg.sender].name = avatars[rng].name;
+//    avatarOwner[msg.sender].class = avatars[rng].class;
+//    work.push(msg.sender) - 1;
+
+    // return(rng,avatarOwner[msg.sender].name,avatarOwner[msg.sender].class); //Returns rng avatar name & class
+
+    return rng;
 
   }
   function getAvatar()public view returns(uint,string memory,string memory)
   {
     return(avatarOwner[msg.sender].id,avatarOwner[msg.sender].name,avatarOwner[msg.sender].class);
   }
+
   function random() public view returns(uint)
   {
     //return(uint(blockhash(block.number-1))%90 + 10); //Take random number from 0-9 using the block.number
     uint ran = uint(keccak256(abi.encode(now,msg.sender,keep)))%index()+1;
     return ran;
+
   }
+
   function deleteAndFix(uint _rng) public {
     delete avatars[_rng];
     for (uint i = _rng; i<avatars.length-1; i++){
@@ -89,7 +96,10 @@ contract GenerateAvatar {
     avatars.length--;
     //return avatars;
   }
-  function setString(string memory _text) {
-    str = _text;
+  function setString(string memory _text) public returns(string memory) {
+    test = _text;
+  }
+  function setNum(uint _num) public returns(uint) {
+    keep = _num;
   }
 }
